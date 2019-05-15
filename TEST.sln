@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{BAB7FBD3-3685-4CDC-B099-9F5396BF316C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{502EC170-E544-4851-826B-6C9FDF402628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST.Website", "Website\TEST.Website.csproj", "{08D2872D-B0FD-44EF-AC84-B9BA4809F896}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{A124304C-1B54-4B1C-B429-5CAF5BF5E613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST.Library", "Library\TEST.Library\TEST.Library.csproj", "{B4C083C0-AD20-49D2-A3E5-5A22AFE82546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08D2872D-B0FD-44EF-AC84-B9BA4809F896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D2872D-B0FD-44EF-AC84-B9BA4809F896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D2872D-B0FD-44EF-AC84-B9BA4809F896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D2872D-B0FD-44EF-AC84-B9BA4809F896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C083C0-AD20-49D2-A3E5-5A22AFE82546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C083C0-AD20-49D2-A3E5-5A22AFE82546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C083C0-AD20-49D2-A3E5-5A22AFE82546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C083C0-AD20-49D2-A3E5-5A22AFE82546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{502EC170-E544-4851-826B-6C9FDF402628} = {BAB7FBD3-3685-4CDC-B099-9F5396BF316C}
+		{08D2872D-B0FD-44EF-AC84-B9BA4809F896} = {502EC170-E544-4851-826B-6C9FDF402628}
+		{A124304C-1B54-4B1C-B429-5CAF5BF5E613} = {BAB7FBD3-3685-4CDC-B099-9F5396BF316C}
+		{B4C083C0-AD20-49D2-A3E5-5A22AFE82546} = {A124304C-1B54-4B1C-B429-5CAF5BF5E613}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54A93DAD-36B2-4F12-B692-40ED44C330BF}
+	EndGlobalSection
+EndGlobal
